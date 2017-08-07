@@ -1,0 +1,19 @@
+{
+  "name": "vterm-vibrancy",
+  "version": "0.0.1",
+  "description": "A VTerm plugin that displays windows-like WindowControls",
+  "main": "distribution.js",
+  "author": "LucaT",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1"
+  },
+  "scripts": {
+    "compile:watch": "babel src -o distribution.js --watch",
+    "compile:build": "babel src -o distribution.js",
+    "prepublish": "yarn run compile:build"
+  }
+}
