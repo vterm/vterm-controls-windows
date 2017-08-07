@@ -1,5 +1,5 @@
 {
-  "name": "vterm-vibrancy",
+  "name": "vterm-controls-windows",
   "version": "0.0.1",
   "description": "A VTerm plugin that displays windows-like WindowControls",
   "main": "distribution.js",
