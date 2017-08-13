@@ -29,9 +29,7 @@ export default class Plugin {
         // and we can use the global variable!
         return(
           <div style={styles}>
-            <Close    />
-            <Maximize />
-            <Minimize />
+            {Generate()}
           </div>
         )
       }
